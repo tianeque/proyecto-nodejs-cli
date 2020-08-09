@@ -14,6 +14,14 @@ const chalk = require('chalk')
 const figlet = require('figlet')
 const inquirer = require('inquirer')
 
+const ficheroOk = filepath => {
+  console.log(
+    chalk.white.bgGreen.bold(
+      `Archivo creado en ${filepath}`
+    )
+  );
+}
+
 const hacerPreguntas = () => {
   const preguntas = [
     {
@@ -63,6 +71,8 @@ const ejecutar = async () => {
     //Creamos el fichero
     const pathFichero = crearFichero(Fichero, Extension)
     //Añadimos el mensaje que el fichero se ha creado correctamente
+
+    ficheroOk(pathFichero)
 }
 
 ejecutar()
