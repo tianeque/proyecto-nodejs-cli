@@ -1,0 +1,29 @@
+{
+  "name": "cli-file-creator",
+  "version": "1.0.0",
+  "description": "Proyecto CLI para generar ficheros de manera facil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianeque/proyecto-nodejs-cli.git"
+  },
+  "keywords": [
+    "csv",
+    "generate csv folios"
+  ],
+  "author": "Sebastian Castillo <sebastian.castillo.s@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tianeque/proyecto-nodejs-cli/issues"
+  },
+  "homepage": "https://github.com/tianeque/proyecto-nodejs-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "shelljs": "^0.8.4"
+  }
+}
